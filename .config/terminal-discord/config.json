@@ -1,0 +1,20 @@
+{
+  "token": "",
+  "max_name_length": null,
+  "allign": false,
+  "separator": ":",
+  "history_length": null,
+  "default_guild": null,
+  "default_channel": null,
+  "mention_color": "#B22222",
+  "default_color": "#D3D0C8",
+  "prompt": "# ",
+  "show_date": true,
+  "show_time": true,
+  "use_nickname": true,
+  "select_count": 8,
+  "color_support": true,
+  "show_embeds": true,
+  "repeat_name": true,
+  "right_bound": false
+}
