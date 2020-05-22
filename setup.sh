@@ -10,7 +10,7 @@ if ! [ -d "~/.dotfiles-termux" ]; then
 	git clone https://github.com/danipragustia/dotfiles-termux ~/.dotfiles-termux
 else
 	echo "Updating Repository"
-	#cd ~/.dotfiles-termux && git pull origin master
+	cd ~/.dotfiles-termux && git pull origin master
 fi
 
 NOW=$(date +"%d-%m-%Y-%T");
