@@ -1,1 +1,2 @@
 alias tupload='f(){ curl -F="file=@$1" https://cdn.etiona.live; unset -f f; }; f'
+alias pushall='git add . && git commit -m "commit: force push" && git push origin master'
