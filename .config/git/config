@@ -1,0 +1,14 @@
+[user]
+	name = Dani Pragustia
+	email = danipragustia@disroot.org
+[core]
+	editor = vim
+	autocrlf = input
+[instaweb]
+	browser = firefox
+[push]
+	default = simple
+[gitreview]
+	username = danipragustia
+[pull]
+	rebase = true
