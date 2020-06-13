@@ -43,4 +43,10 @@ function parse_git_dirty {
 	fi
 }
 
+export PATH=~/bin/$(hostname):~/bin/$(uname -m):~/bin:$PATH
+
 export PS1="\[\e[32m\]\`parse_git_branch\`\[\e[m\]\[\e[37m\] •\[\e[m\]>  "
+
+if [[ ! $TERM =~ screen ]]; then
+    exec tmux
+fi
